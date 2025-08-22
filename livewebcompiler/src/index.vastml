@@ -1,0 +1,27 @@
+<vastml>
+<upload to="register">
+<hello>
+<login data="users.txt">
+<register data="users.txt">
+<logout href="login.php">
+<comment><auth href="test.php"></comment>
+<var name="test">2</var>
+<var name="test"></var>
+<br>
+<position top="150px" to="right">
+<?php echo <var name="test"></var>; ?>
+</position>
+<br>
+<position left="50px" top="20px">
+  <p>This text is 50px from the left and 20px from the top.</p>
+</position>
+<position to="right">
+  <p>This paragraph is aligned to the right.</p>
+</position>
+<position to="right" top="30px">
+  <p>This content is floated right and pushed down 30px.</p>
+</position>
+<position to="center">
+  <p>This text is perfectly centered.</p>
+</position>
+</vastml>
